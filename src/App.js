@@ -5,9 +5,6 @@ import Buttons from './Components/CalcButtons';
 import Result from './Components/CalcResult';
 
 class App extends Component {
-  constructor(props) {
-    super(props)
-  }
 
   state = {
     result: ''
