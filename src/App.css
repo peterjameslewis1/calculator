@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+/* .app-container {
+} */
+
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.result-container {
+  height: 30vh;
+  display: flex;
+  justify-content: flex-end;
+  background-color: orange;
+  color: black;
+  align-items: center;
+  font-size: 30px;
+  padding-right: 10px;
+}
+
+button {
+  flex: 1 1 25%;
+  border-radius: 0;
+  border: none;
+  padding: 10px;
+  background-color: lightgray;
+  font-size: 20px;
+}
+
+button:hover {
+  background-color: grey;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+@media screen and (min-width: 500px) {
+  button {
+    font-size: 34px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  button {
+    font-size: 50px;
+  }
+}

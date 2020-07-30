@@ -1,0 +1,8 @@
+div {
+  display: flex;
+  background-color: grey;
+}
+button {
+  border: none;
+  outline: none;
+}
